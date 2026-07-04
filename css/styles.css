@@ -1,0 +1,29 @@
+p {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    text-decoration-thickness: 5;
+
+
+}
+
+@font-face {
+    font-family: "comicsans";
+    src: url('fonts/COMIC.TTF');
+}
+
+.baldi {
+    
+   width: 201px;
+  height: 78px;
+  
+  background-size: cover;
+  
+  background-image: url('buttons/baldi.png');
+  background-color: transparent;
+  border: transparent;
+  font-family: "comicsans";
+  
+
+  
+}
