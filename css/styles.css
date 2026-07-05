@@ -31,6 +31,8 @@ p {
   border-radius: 12px;
    image-rendering: pixelated;
    transition: 0.05s;
+   width: 42%;
+display: block;
   
 }
 
@@ -48,4 +50,12 @@ p {
     transform: scale(0.98)
 
 
+}
+
+
+.game
+{
+
+    width: 42%;
+    height: 42%;
 }
