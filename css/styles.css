@@ -26,6 +26,7 @@ p {
   font-family: "comicsans";
   cursor:pointer;
   transition: 0.05s;
+   image-rendering: pixelated;
 
   
 }
@@ -43,6 +44,43 @@ p {
 {
     background-image: url('buttons/baldiclick.png');
     transform: scale(0.94)
+
+
+}
+
+
+
+.bbigap {
+    
+   width: 640px;
+  height: 360px;
+  
+  background-size: cover;
+  
+  background-image: url('cssimages/BBIGAPThumbnail.png');
+  background-color: transparent;
+  border: transparent;
+  font-size:xx-small;
+  cursor:pointer;
+  transition: 0.05s;
+  border-radius: 12px;
+   image-rendering: pixelated;
+   transition: 0.05s;
+  
+}
+
+
+
+.bbigap:hover {
+    transform: scale(1.05)
+
+
+
+}
+
+.bbigap:active
+{
+    transform: scale(0.98)
 
 
 }
