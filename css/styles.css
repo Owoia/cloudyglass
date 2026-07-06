@@ -67,7 +67,7 @@ display: block;
 .introvideo
 
 {
-position: fixed;     
-bottom: 0px;
+position: relative;
+top: -5px;
 
 }
