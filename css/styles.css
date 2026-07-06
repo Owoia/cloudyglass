@@ -31,7 +31,11 @@ p {
   border-radius: 12px;
    image-rendering: pixelated;
    transition: 0.05s;
-   width: 42%;
+   width: 46%;
+   min-height: 360px;
+   min-width: 480px;
+   color:transparent;
+    
 display: block;
   
 }
