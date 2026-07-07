@@ -13,7 +13,13 @@ p {
     src: url('fonts/COMIC.TTF');
 }
 
-
+body {
+      background-image: url('cssimages/Retrostar/'); 
+      background-repeat: repeat; 
+      background-size: 64px 64px;
+      background-position: center; 
+      
+    }
 
 .bbigap {
    color:transparent;
