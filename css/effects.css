@@ -1,5 +1,5 @@
 .itchio:hover {
-    transform: scale(1.03)
+    transform: scale(1.06)
 
 
 
@@ -27,7 +27,7 @@ position:relative;
 
 .itchio:active
 {
-    transform: scale(0.98)
+    transform: scale(0.95)
 
 
 }
