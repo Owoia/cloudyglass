@@ -14,6 +14,12 @@ p {
 }
 
 
+@font-face {
+    font-family: "Comic";
+    src: url('fonts/ComicNeue-Bold.ttf');
+}
+
+
 
 .bbigap {
    color:transparent;
@@ -34,20 +40,28 @@ p {
    width: 46%;
    min-height: 360px;
    min-width: 480px;
-   color:transparent;
-    
-display: block;
-  
+   color:transparent;    
+    display: block;
 }
 
-.retrostar {
+.bbigap-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  gap: 8px; 
+}
+
+
+
+
+.kkr {
    color:transparent;
-   width: 394px;
-  height: 292px;
+   width: 640px;
+  height: 360px;
   
   background-size: cover;
   
-  background-image: url('cssimages/retrostar.png');
+  background-image: url('cssimages/KKRThumbnail.png');
   background-color: transparent;
   border: transparent;
   font-size:xx-small;
@@ -56,11 +70,34 @@ display: block;
   border-radius: 12px;
    image-rendering: pixelated;
    transition: 0.05s;
-   color:transparent;
-    
-display: block;
-  
+   width: 46%;
+   min-height: 360px;
+   min-width: 480px;
+   color:transparent;    
+    display: block;
 }
+
+.kkr-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  gap: 8px; 
+}
+
+
+
+
+
+
+.belowgame {
+    font-family: "Comic";
+  font-size: 14px;
+  color: white;
+  display: inline-block;
+  vertical-align:text-bottom;
+}
+
+
 
 .retrostar:hover {
     transform: scale(1.03)
@@ -77,14 +114,32 @@ display: block;
 }
 
 
-.bbigap:hover {
+.gameicon
+{
+
+    transition: 0.05s;
+    width: fit-content;
+height: fit-content;
+inline-size: fit-content;
+block-size: fit-content;
+}
+
+
+hr  {
+    border: none;     
+    margin-top: 30px;  
+    margin-bottom: 0;   
+    height: 0;         
+    }
+
+.gameicon:hover {
     transform: scale(1.03)
 
 
 
 }
 
-.bbigap:active
+.gameicon:active
 {
     transform: scale(0.98)
 
@@ -105,4 +160,21 @@ display: block;
 position: relative;
 top: -5px;
 
+}
+
+
+.content {
+
+background-image: url('bgtile.png'); 
+background-repeat: repeat; 
+background-size: 64px 64px;
+background-position: center; 
+max-width: 800px;
+margin: 40px auto;
+padding: 20px;
+border-radius: 4px;
+width: fit-content;
+height: fit-content;
+inline-size: fit-content;
+block-size: fit-content;
 }

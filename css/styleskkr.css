@@ -1,0 +1,133 @@
+p {
+
+    font-family: "comicsans";
+    font-weight: normal;
+    color:#4e3220;
+    text-decoration-thickness: 5;
+    font-size:x-large;
+    overflow-wrap:break-word;
+    word-wrap:break-word;
+    max-width: 100%; 
+    box-sizing: border-box;
+
+}
+
+@font-face {
+    font-family: "comicsans";
+    src: url('fonts/ComicNeue-Bold.ttf');
+}
+
+body {
+      background-color:#d8ab79;
+      background-repeat: repeat; 
+      background-size: 80px 80px;
+      background-position: center; 
+      
+    }
+
+a {
+  text-decoration: none; 
+  color: inherit;        
+}
+
+div {
+
+background-color: #ece6b9;
+width: 80%;
+max-width: 800px;
+margin: 40px auto;
+padding: 20px;
+border-radius: 8px;
+size: 6%;
+}
+
+
+hr  {
+    border: none;     
+    margin-top: 30px;  
+    margin-bottom: 0;   
+    height: 0;         
+    }
+.katdownload {
+background-color: #cf9d00;
+font-family: "comicsans";
+  border: none;
+  
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 130%;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.05s;
+  border-radius:5px;
+    
+}
+
+
+.windows
+{
+
+width: 15px;
+
+}
+
+.android
+{
+
+width: 15px;
+
+
+}
+
+.html5
+{
+
+width: 13px;
+
+}
+
+.fit-picture
+{
+border-radius:5px;
+    
+}
+
+
+.katdownload:hover {
+    transform: scale(1.03)
+
+
+
+}
+
+.katdownload:active
+{
+    transform: scale(0.98)
+
+
+}
+
+
+.game
+{
+
+    width: 42%;
+    height: 42%;
+}
+
+.cc
+{
+font-family: "comicsans";
+    font-weight: bold;
+    color:#4e3220;
+    text-decoration-thickness: 5;
+    overflow-wrap:break-word;
+    word-wrap:break-word;
+    max-width: 100%; 
+    box-sizing: content-box;
+    font-size:small;
+    position: relative;
+    height: 0px;
+}
