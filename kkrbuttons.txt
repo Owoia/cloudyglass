@@ -1,0 +1,12 @@
+<a href="Games/KKR/kkr1.0.0.0android.apk" download="">
+        <button type="button" name="" class ="katdownload" href="" download="">Download
+            <img src="css/cssimages/logo-android.svg" alt="" class="android">
+        </button>
+        <a href="" download=""></a>
+
+
+        <a href="KKRPAGE/index.html">
+        <button type="button" name="" class ="katdownload" href="KKRPAGE/index.html">Play Online
+            <img src="css/cssimages/html5-balck-icon.svg" alt="" class="html5">
+        </button>
+        <a href="" download=""></a>
