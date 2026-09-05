@@ -22,7 +22,7 @@ p {
 
 
 .bbigap {
-   color:transparent;
+  color:transparent;
    width: 640px;
   height: 360px;
   
@@ -83,6 +83,40 @@ p {
   align-items: center;  
   gap: 8px; 
 }
+
+
+
+.bbigapDevlog {
+   color:transparent;
+   width: 640px;
+  height: 360px;
+  
+  background-size: cover;
+  
+  background-image: url('cssimages/bbigapdevlog.png');
+  background-color: transparent;
+  border: transparent;
+  font-size:xx-small;
+  cursor:pointer;
+  transition: 0.05s;
+  border-radius: 12px;
+   image-rendering: pixelated;
+   transition: 0.05s;
+   width: 46%;
+   min-height: 360px;
+   min-width: 480px;
+   color:transparent;    
+    display: block;
+}
+
+.bbigapDevlog-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  gap: 8px; 
+}
+
+
 
 
 
